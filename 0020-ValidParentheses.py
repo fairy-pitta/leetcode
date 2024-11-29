@@ -1,19 +1,30 @@
 class Solution:
     def isValid(self, s: str) -> bool:
-        s = list(s)
-        for i in range(len(s)):
-            for j in range(i, len(s)):
-                if s[i] == "(" and s[j] == ")":
-                    s[i] = ""
-                    s[j] = ""
-                elif s[i] == "{" and s[j] == "}":
-                    s[i] = ""
-                    s[j] = ""
-                elif s[i] == "[" and s[j] == "]":
-                    s[i] = ""
-                    s[j] = ""
-        
-        if "".join(s) == '':
-            return True
+        from collections import deque 
+
+        d = deque()
+
+        for bracket in list(s):
+            if bracket == "(" or bracket == "{" or bracket == "[":
+                d.append(bracket)
+            elif d and bracket == ")":
+                pair = d.pop()
+                if pair != "(":
+                    return False 
+            elif d and bracket == "}":
+                pair = d.pop()
+                if pair != "{":
+                    return False 
+            elif d and bracket == "]":
+                pair = d.pop()
+                if pair != "[":
+                    return False
+            else:
+                return False
+            
+        if d:
+            return False 
         else:
-            return False
+            return True
+
+        

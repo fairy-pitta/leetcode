@@ -17,3 +17,6 @@ class Solution:
                 ans += list(d[j])[0]
             else:
                 break
+        
+        return ans 
+
