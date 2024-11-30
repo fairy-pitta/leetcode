@@ -1,24 +1,17 @@
-
-| Problem No | Problem   | Difficulty | Status   | Date       |
-|------------|-----------|------------|----------|------------|
-|      1      |     Two Sum      |        Easy    |      Solved    |      2024/11/29      |
-|      9      |     Palindrome Number      |       Easy     |     Solved     |      2024/11/29        |
-|       13     |    Roman to Integer        |      Easy      |     Solved     |       2024/11/29       |
-|      14      |     Longest Common Prefix      |     Easy       |     Solved     |     2024/11/29         |
-|      20      |     Valid Parentheses      |     Easy       |  Solved with a hint (stack)        |      2024/11/29        |
-|            |           |            |          |            |
-|            |           |            |          |            |
-|            |           |            |          |            |
-|            |           |            |          |            |
-|            |           |            |          |            |
-|            |           |            |          |            |
-|            |           |            |          |            |
-|            |           |            |          |            |
-|            |           |            |          |            |
-|            |           |            |          |            |
-|            |           |            |          |            |
-|            |           |            |          |            |
-|            |           |            |          |            |
-|            |           |            |          |            |
-|            |           |            |          |            |
-|            |           |            |          |            |
+|   Cumulative Problems | Problem No   | Problem                                         | Difficulty   | Status                     | Date       | Comments           | URL                                               |
+|----------------------:|:-------------|:-----------------------------------------------|:-------------|:---------------------------|:-----------|:-------------------|:-------------------------------------------------|
+|                     1 | 1            | Two Sum                                        | Easy         | Solved                     | 2024/11/29 | np                | https://leetcode.com/problems/two-sum/          |
+|                     2 | 9            | Palindrome Number                              | Easy         | Solved                     | 2024/11/29 | np                | https://leetcode.com/problems/palindrome-number/|
+|                     3 | 13           | Roman to Integer                               | Easy         | Solved                     | 2024/11/29 | np                | https://leetcode.com/problems/roman-to-integer/ |
+|                     4 | 14           | Longest Common Prefix                          | Easy         | Solved                     | 2024/11/29 | np                | https://leetcode.com/problems/longest-common-prefix/ |
+|                     5 | 20           | Valid Parentheses                              | Easy         | Solved                     | 2024/11/29 | got a hint about stack | https://leetcode.com/problems/valid-parentheses/ |
+|                     6 | 28           | Find the Index of the First Occurrence in a String | Easy         | Solved                     | 2024/11/30 | np                | https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/ |
+|                     7 | 35           | Search Insert Position                         | Easy         | Solved                     | 2024/11/30 | np                | https://leetcode.com/problems/search-insert-position/ |
+|                     8 | 58           | Length of Last Word                            | Easy         | Solved                     | 2024/11/30 | np                | https://leetcode.com/problems/length-of-last-word/ |
+|                     9 | 66           | Plus One                                       | Easy         | Solved                     | 2024/11/30 | np                | https://leetcode.com/problems/plus-one/         |
+|                    10 | 67           | Add Binary                                     | Easy         | Solved                     | 2024/11/30 | np                | https://leetcode.com/problems/add-binary/       |
+|                    11 | 69           | Sqrt(x)                                        | Easy         | Solved                     | 2024/11/30 | np                | https://leetcode.com/problems/sqrtx/            |
+|                    12 | 70           | Climbing Stairs                                | Easy         | Solved                     | 2024/11/30 | np                | https://leetcode.com/problems/climbing-stairs/  |
+|                    13 |              |                                                |              |                            |            |                   |                                                 |
+|                    14 |              |                                                |              |                            |            |                   |                                                 |
+|                    15 |              |                                                |              |                            |            |                   |                                                 |
