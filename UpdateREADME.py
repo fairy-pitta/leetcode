@@ -10,8 +10,8 @@ for file in os.listdir(directory_path):
     if file.endswith('.py') and filename_pattern.match(file):
         match = filename_pattern.match(file)
         problem_no = int(match.group(1))
-        problem_name = match.group(2).replace("-", " ")
-        url = f"https://leetcode.com/problems/{problem_name.lower().replace(' ', '-')}/"
+        problem_name = match.group(2).replace("-", " ").capitalize()
+        url = f"https://leetcode.com/problems/{match.group(2)}/"
         hyperlink = f"[{problem_name}]({url})"
         new_entries.append((problem_no, hyperlink))
 
@@ -19,6 +19,7 @@ readme_path = "README.md"
 
 with open(readme_path, 'r') as file:
     lines = file.readlines()
+
 
 start_index = end_index = None
 for index, line in enumerate(lines):
@@ -36,6 +37,7 @@ if start_index is None:
 if end_index is None:
     end_index = len(lines)
 
+
 table_data = []
 existing_problem_nos = []
 
@@ -48,16 +50,21 @@ for line in lines[start_index:end_index]:
         table_data.append((problem_no, problem_name_link, date_added))
         existing_problem_nos.append(problem_no)
 
+
 for problem_no, hyperlink in new_entries:
     if problem_no not in existing_problem_nos:
         date_added = datetime.now().strftime('%Y-%m-%d')
         table_data.append((problem_no, hyperlink, date_added))
 
+
 table_data.sort(key=lambda x: x[0])
+
+
 updated_table = [
     f"| {i+1} | {item[0]} | {item[1]} | {item[2]} |\n"
     for i, item in enumerate(table_data)
 ]
+
 
 lines = lines[:start_index] + updated_table + lines[end_index:]
 
