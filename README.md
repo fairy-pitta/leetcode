@@ -12,7 +12,12 @@
 | 10 | 67 | [Add binary](https://leetcode.com/problems/add-binary/) | 2024-11-30 |
 | 11 | 69 | [Sqrtx](https://leetcode.com/problems/sqrtx/) | 2024-11-30 |
 | 12 | 70 | [Climbing stairs](https://leetcode.com/problems/climbing-stairs/) | 2024-11-30 |
-| 13 | 506 | [Relative ranks](https://leetcode.com/problems/relative-ranks/) | 2024-12-01 |
-| 14 | 507 | [Perfect number](https://leetcode.com/problems/perfect-number/) | 2024-12-01 |
-| 15 | 509 | [Fibonacci number](https://leetcode.com/problems/fibonacci-number/) | 2024-12-01 |
+| 13 | 88 | [Merge sorted array](https://leetcode.com/problems/merge-sorted-array/) | 2024-12-02 |
+| 14 | 118 | [Pascals triangle](https://leetcode.com/problems/pascals-triangle/) | 2024-12-02 |
+| 15 | 121 | [Best time to buy and sell stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | 2024-12-02 |
+| 16 | 125 | [Valid palindrome](https://leetcode.com/problems/valid-palindrome/) | 2024-12-02 |
+| 17 | 136 | [Single number](https://leetcode.com/problems/single-number/) | 2024-12-02 |
+| 18 | 506 | [Relative ranks](https://leetcode.com/problems/relative-ranks/) | 2024-12-01 |
+| 19 | 507 | [Perfect number](https://leetcode.com/problems/perfect-number/) | 2024-12-01 |
+| 20 | 509 | [Fibonacci number](https://leetcode.com/problems/fibonacci-number/) | 2024-12-01 |
 
