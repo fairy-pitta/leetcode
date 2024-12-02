@@ -1,9 +1,11 @@
 import re
 import requests
 from datetime import datetime, timedelta
+import pytz  # タイムゾーンライブラリ
 
 API_URL = "https://leetcode-api-faisalshohag.vercel.app/Gxv68WV2yV"
 README_FILE = "README.md"
+SGT = pytz.timezone("Asia/Singapore")  # シンガポール時間
 
 def fetch_api_data(api_url):
     """Fetch data from the API."""
@@ -15,13 +17,13 @@ def fetch_api_data(api_url):
 
 def get_weekly_counts(submission_calendar):
     """Calculate submissions for each day of the past week."""
-    today = datetime.now()
+    today = datetime.now(SGT)
     week_dates = [(today - timedelta(days=i)).date() for i in range(6, -1, -1)]
     weekly_counts = {date: 0 for date in week_dates}
 
     # Count submissions from the submission calendar
     for timestamp, count in submission_calendar.items():
-        submission_date = datetime.fromtimestamp(int(timestamp)).date()
+        submission_date = datetime.fromtimestamp(int(timestamp), SGT).date()
         if submission_date in weekly_counts:
             weekly_counts[submission_date] += count
 
@@ -29,9 +31,10 @@ def get_weekly_counts(submission_calendar):
 
 def format_weekly_submissions_horizontal(weekly_counts):
     """Format weekly submissions as a horizontal Markdown table."""
-    weekdays = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
-    dates = [date.strftime("%Y-%m-%d") for date in weekly_counts.keys()]
-    submissions = [weekly_counts[date] for date in weekly_counts.keys()]
+    week_dates = list(weekly_counts.keys())
+    weekdays = [date.strftime("%A") for date in week_dates]  # Dynamic weekdays
+    dates = [date.strftime("%m/%d") for date in week_dates]  # Format as MM/DD
+    submissions = [weekly_counts[date] for date in week_dates]
 
     table = "| Day         | " + " | ".join(weekdays) + " |\n"
     table += "|-------------| " + " | ".join(["-" * len(day) for day in weekdays]) + " |\n"
@@ -107,7 +110,7 @@ def update_readme(new_section, readme_file):
 def format_recent_submissions(submissions):
     """Format recent submissions as a Markdown table."""
     rows = [
-        f"| {sub['title']} | {sub['statusDisplay']} | {sub['lang']} | {datetime.fromtimestamp(int(sub['timestamp'])).strftime('%Y-%m-%d %H:%M:%S')} |"
+        f"| {sub['title']} | {sub['statusDisplay']} | {sub['lang']} | {datetime.fromtimestamp(int(sub['timestamp']), SGT).strftime('%m/%d %H:%M:%S')} |"
         for sub in submissions
     ]
     return "\n".join(rows)

@@ -42,34 +42,34 @@
 
 | Problem                            | Status         | Language  | Timestamp           |
 |------------------------------------|----------------|-----------|---------------------|
-| Identify the Largest Outlier in an Array | Accepted | python3 | 2024-12-02 15:50:39 |
-| Identify the Largest Outlier in an Array | Time Limit Exceeded | python3 | 2024-12-02 15:44:43 |
-| Identify the Largest Outlier in an Array | Wrong Answer | python3 | 2024-12-02 15:38:36 |
-| Identify the Largest Outlier in an Array | Wrong Answer | python3 | 2024-12-02 15:29:44 |
-| Identify the Largest Outlier in an Array | Wrong Answer | python3 | 2024-12-02 15:27:27 |
-| Smallest Number With All Set Bits | Accepted | python3 | 2024-12-02 15:13:10 |
-| Pascal's Triangle II | Accepted | python3 | 2024-12-02 15:02:14 |
-| Pascal's Triangle | Accepted | python3 | 2024-12-02 14:40:11 |
-| Best Time to Buy and Sell Stock | Accepted | python3 | 2024-12-02 14:22:08 |
-| Single Number | Accepted | python3 | 2024-12-02 14:02:58 |
-| Valid Palindrome | Accepted | python3 | 2024-12-02 13:56:06 |
-| Merge Sorted Array | Accepted | python3 | 2024-12-02 13:45:36 |
-| Merge Sorted Array | Runtime Error | python3 | 2024-12-02 13:35:02 |
-| Relative Ranks | Accepted | python3 | 2024-12-01 11:24:53 |
-| Fibonacci Number | Accepted | python3 | 2024-12-01 11:02:05 |
-| Perfect Number | Accepted | python3 | 2024-12-01 10:57:50 |
-| Perfect Number | Wrong Answer | python3 | 2024-12-01 10:56:38 |
-| Perfect Number | Wrong Answer | python3 | 2024-12-01 10:56:01 |
-| Valid Palindrome | Wrong Answer | python3 | 2024-11-30 13:28:28 |
-| Climbing Stairs | Accepted | python3 | 2024-11-30 11:34:58 |
+| Identify the Largest Outlier in an Array | Accepted | python3 | 12/02 15:50:39 |
+| Identify the Largest Outlier in an Array | Time Limit Exceeded | python3 | 12/02 15:44:43 |
+| Identify the Largest Outlier in an Array | Wrong Answer | python3 | 12/02 15:38:36 |
+| Identify the Largest Outlier in an Array | Wrong Answer | python3 | 12/02 15:29:44 |
+| Identify the Largest Outlier in an Array | Wrong Answer | python3 | 12/02 15:27:27 |
+| Smallest Number With All Set Bits | Accepted | python3 | 12/02 15:13:10 |
+| Pascal's Triangle II | Accepted | python3 | 12/02 15:02:14 |
+| Pascal's Triangle | Accepted | python3 | 12/02 14:40:11 |
+| Best Time to Buy and Sell Stock | Accepted | python3 | 12/02 14:22:08 |
+| Single Number | Accepted | python3 | 12/02 14:02:58 |
+| Valid Palindrome | Accepted | python3 | 12/02 13:56:06 |
+| Merge Sorted Array | Accepted | python3 | 12/02 13:45:36 |
+| Merge Sorted Array | Runtime Error | python3 | 12/02 13:35:02 |
+| Relative Ranks | Accepted | python3 | 12/01 11:24:53 |
+| Fibonacci Number | Accepted | python3 | 12/01 11:02:05 |
+| Perfect Number | Accepted | python3 | 12/01 10:57:50 |
+| Perfect Number | Wrong Answer | python3 | 12/01 10:56:38 |
+| Perfect Number | Wrong Answer | python3 | 12/01 10:56:01 |
+| Valid Palindrome | Wrong Answer | python3 | 11/30 13:28:28 |
+| Climbing Stairs | Accepted | python3 | 11/30 11:34:58 |
 
 ---
 
 ## 📅 Submissions in the Last 7 Days
 
-| Day         | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday | Sunday |
-|-------------| ------ | ------- | --------- | -------- | ------ | -------- | ------ |
-| Date        | 2024-11-26 | 2024-11-27 | 2024-11-28 | 2024-11-29 | 2024-11-30 | 2024-12-01 | 2024-12-02 |
+| Day         | Tuesday | Wednesday | Thursday | Friday | Saturday | Sunday | Monday |
+|-------------| ------- | --------- | -------- | ------ | -------- | ------ | ------ |
+| Date        | 11/26 | 11/27 | 11/28 | 11/29 | 11/30 | 12/01 | 12/02 |
 | Submissions | 0 | 0 | 0 | 14 | 11 | 5 | 13 |
 
 ---
