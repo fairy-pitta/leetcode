@@ -67,8 +67,9 @@
 
 ## 📅 Submissions in the Last 7 Days
 
-| Day       | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday | Sunday |
-|-----------| 2024-11-26 | 2024-11-27 | 2024-11-28 | 2024-11-29 | 2024-11-30 | 2024-12-01 | 2024-12-02 |
+| Day         | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday | Sunday |
+|-------------| ------ | ------- | --------- | -------- | ------ | -------- | ------ |
+| Date        | 2024-11-26 | 2024-11-27 | 2024-11-28 | 2024-11-29 | 2024-11-30 | 2024-12-01 | 2024-12-02 |
 | Submissions | 0 | 0 | 0 | 14 | 11 | 5 | 13 |
 
 ---
