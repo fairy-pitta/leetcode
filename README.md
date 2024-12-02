@@ -14,10 +14,13 @@
 | 12 | 70 | [Climbing stairs](https://leetcode.com/problems/climbing-stairs/) | 2024-11-30 |
 | 13 | 88 | [Merge sorted array](https://leetcode.com/problems/merge-sorted-array/) | 2024-12-02 |
 | 14 | 118 | [Pascals triangle](https://leetcode.com/problems/pascals-triangle/) | 2024-12-02 |
-| 15 | 121 | [Best time to buy and sell stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | 2024-12-02 |
-| 16 | 125 | [Valid palindrome](https://leetcode.com/problems/valid-palindrome/) | 2024-12-02 |
-| 17 | 136 | [Single number](https://leetcode.com/problems/single-number/) | 2024-12-02 |
-| 18 | 506 | [Relative ranks](https://leetcode.com/problems/relative-ranks/) | 2024-12-01 |
-| 19 | 507 | [Perfect number](https://leetcode.com/problems/perfect-number/) | 2024-12-01 |
-| 20 | 509 | [Fibonacci number](https://leetcode.com/problems/fibonacci-number/) | 2024-12-01 |
+| 15 | 119 | [Pascals triangle ii](https://leetcode.com/problems/pascals-triangle-ii/) | 2024-12-02 |
+| 16 | 121 | [Best time to buy and sell stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | 2024-12-02 |
+| 17 | 125 | [Valid palindrome](https://leetcode.com/problems/valid-palindrome/) | 2024-12-02 |
+| 18 | 136 | [Single number](https://leetcode.com/problems/single-number/) | 2024-12-02 |
+| 19 | 506 | [Relative ranks](https://leetcode.com/problems/relative-ranks/) | 2024-12-01 |
+| 20 | 507 | [Perfect number](https://leetcode.com/problems/perfect-number/) | 2024-12-01 |
+| 21 | 509 | [Fibonacci number](https://leetcode.com/problems/fibonacci-number/) | 2024-12-01 |
+| 22 | 3370 | [Smallest number with all set bits](https://leetcode.com/problems/smallest-number-with-all-set-bits/) | 2024-12-02 |
+| 23 | 3371 | [Identify the largest outlier in an array](https://leetcode.com/problems/identify-the-largest-outlier-in-an-array/) | 2024-12-02 |
 
