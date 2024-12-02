@@ -24,3 +24,50 @@
 | 22 | 3370 | [Smallest number with all set bits](https://leetcode.com/problems/smallest-number-with-all-set-bits/) | 2024-12-02 |
 | 23 | 3371 | [Identify the largest outlier in an array](https://leetcode.com/problems/identify-the-largest-outlier-in-an-array/) | 2024-12-02 |
 
+
+<!-- Progress Start -->
+## Problem Solving Progress 🚀
+
+| Difficulty | Solved | Total | Completion (%) |
+|------------|--------|-------|----------------|
+| Easy       | 22     | 840   | 2.62%          |
+| Medium     | 1      | 1762  | 0.06%          |
+| Hard       | 0      | 772   | 0.00%          |
+
+**Total Solved**: 23/3374 (0.68%)
+
+---
+
+## 📘 Recent Submissions
+
+| Problem                            | Status         | Language  | Timestamp           |
+|------------------------------------|----------------|-----------|---------------------|
+| Identify the Largest Outlier in an Array | Accepted | python3 | 1733125839 |
+| Identify the Largest Outlier in an Array | Time Limit Exceeded | python3 | 1733125483 |
+| Identify the Largest Outlier in an Array | Wrong Answer | python3 | 1733125116 |
+| Identify the Largest Outlier in an Array | Wrong Answer | python3 | 1733124584 |
+| Identify the Largest Outlier in an Array | Wrong Answer | python3 | 1733124447 |
+| Smallest Number With All Set Bits | Accepted | python3 | 1733123590 |
+| Pascal's Triangle II | Accepted | python3 | 1733122934 |
+| Pascal's Triangle | Accepted | python3 | 1733121611 |
+| Best Time to Buy and Sell Stock | Accepted | python3 | 1733120528 |
+| Single Number | Accepted | python3 | 1733119378 |
+| Valid Palindrome | Accepted | python3 | 1733118966 |
+| Merge Sorted Array | Accepted | python3 | 1733118336 |
+| Merge Sorted Array | Runtime Error | python3 | 1733117702 |
+| Relative Ranks | Accepted | python3 | 1733023493 |
+| Fibonacci Number | Accepted | python3 | 1733022125 |
+| Perfect Number | Accepted | python3 | 1733021870 |
+| Perfect Number | Wrong Answer | python3 | 1733021798 |
+| Perfect Number | Wrong Answer | python3 | 1733021761 |
+| Valid Palindrome | Wrong Answer | python3 | 1732944508 |
+| Climbing Stairs | Accepted | python3 | 1732937698 |
+
+---
+
+## 🌟 Rankings and Achievements
+
+- **Global Ranking**: 3277311 🌍
+- **Contribution Points**: 21
+    <!-- Progress End -->
+
