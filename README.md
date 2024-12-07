@@ -17,18 +17,21 @@
 | 15 | 70 | [Climbing stairs](https://leetcode.com/problems/climbing-stairs/) | 2024-11-30 |
 | 16 | 83 | [Remove duplicates from sorted list](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | 2024-12-06 |
 | 17 | 88 | [Merge sorted array](https://leetcode.com/problems/merge-sorted-array/) | 2024-12-02 |
-| 18 | 118 | [Pascals triangle](https://leetcode.com/problems/pascals-triangle/) | 2024-12-02 |
-| 19 | 119 | [Pascals triangle ii](https://leetcode.com/problems/pascals-triangle-ii/) | 2024-12-02 |
-| 20 | 121 | [Best time to buy and sell stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | 2024-12-02 |
-| 21 | 125 | [Valid palindrome](https://leetcode.com/problems/valid-palindrome/) | 2024-12-02 |
-| 22 | 136 | [Single number](https://leetcode.com/problems/single-number/) | 2024-12-02 |
-| 23 | 141 | [Linked list cycle](https://leetcode.com/problems/linked-list-cycle/) | 2024-12-06 |
-| 24 | 160 | [Intersection of two linked lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) | 2024-12-06 |
-| 25 | 506 | [Relative ranks](https://leetcode.com/problems/relative-ranks/) | 2024-12-01 |
-| 26 | 507 | [Perfect number](https://leetcode.com/problems/perfect-number/) | 2024-12-01 |
-| 27 | 509 | [Fibonacci number](https://leetcode.com/problems/fibonacci-number/) | 2024-12-01 |
-| 28 | 3370 | [Smallest number with all set bits](https://leetcode.com/problems/smallest-number-with-all-set-bits/) | 2024-12-02 |
-| 29 | 3371 | [Identify the largest outlier in an array](https://leetcode.com/problems/identify-the-largest-outlier-in-an-array/) | 2024-12-02 |
+| 18 | 94 | [Binary tree inorder traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | 2024-12-07 |
+| 19 | 100 | [Same tree](https://leetcode.com/problems/same-tree/) | 2024-12-07 |
+| 20 | 101 | [Symmetric tree](https://leetcode.com/problems/symmetric-tree/) | 2024-12-07 |
+| 21 | 118 | [Pascals triangle](https://leetcode.com/problems/pascals-triangle/) | 2024-12-02 |
+| 22 | 119 | [Pascals triangle ii](https://leetcode.com/problems/pascals-triangle-ii/) | 2024-12-02 |
+| 23 | 121 | [Best time to buy and sell stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | 2024-12-02 |
+| 24 | 125 | [Valid palindrome](https://leetcode.com/problems/valid-palindrome/) | 2024-12-02 |
+| 25 | 136 | [Single number](https://leetcode.com/problems/single-number/) | 2024-12-02 |
+| 26 | 141 | [Linked list cycle](https://leetcode.com/problems/linked-list-cycle/) | 2024-12-06 |
+| 27 | 160 | [Intersection of two linked lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) | 2024-12-06 |
+| 28 | 506 | [Relative ranks](https://leetcode.com/problems/relative-ranks/) | 2024-12-01 |
+| 29 | 507 | [Perfect number](https://leetcode.com/problems/perfect-number/) | 2024-12-01 |
+| 30 | 509 | [Fibonacci number](https://leetcode.com/problems/fibonacci-number/) | 2024-12-01 |
+| 31 | 3370 | [Smallest number with all set bits](https://leetcode.com/problems/smallest-number-with-all-set-bits/) | 2024-12-02 |
+| 32 | 3371 | [Identify the largest outlier in an array](https://leetcode.com/problems/identify-the-largest-outlier-in-an-array/) | 2024-12-02 |
 
 
 <!-- Progress Start -->
@@ -36,11 +39,11 @@
 
 | Difficulty | Solved | Total | Completion (%) |
 |------------|--------|-------|----------------|
-| Easy       | 29     | 840   | 3.45%          |
+| Easy       | 32     | 840   | 3.81%          |
 | Medium     | 1      | 1762  | 0.06%          |
 | Hard       | 0      | 772   | 0.00%          |
 
-**Total Solved**: 30/3374 (0.89%)
+**Total Solved**: 33/3374 (0.98%)
 
 ---
 
@@ -48,6 +51,9 @@
 
 | Problem                            | Status         | Language  | Timestamp           |
 |------------------------------------|----------------|-----------|---------------------|
+| Symmetric Tree | Accepted | python3 | 12/07 23:50:29 |
+| Same Tree | Accepted | python3 | 12/07 23:33:32 |
+| Binary Tree Inorder Traversal | Accepted | python3 | 12/07 23:00:48 |
 | Remove Duplicates from Sorted List | Accepted | python3 | 12/06 11:41:30 |
 | Intersection of Two Linked Lists | Accepted | python3 | 12/06 11:37:35 |
 | Linked List Cycle | Accepted | python3 | 12/06 11:25:56 |
@@ -64,25 +70,21 @@
 | Identify the Largest Outlier in an Array | Wrong Answer | python3 | 12/02 15:38:36 |
 | Identify the Largest Outlier in an Array | Wrong Answer | python3 | 12/02 15:29:44 |
 | Identify the Largest Outlier in an Array | Wrong Answer | python3 | 12/02 15:27:27 |
-| Smallest Number With All Set Bits | Accepted | python3 | 12/02 15:13:10 |
-| Pascal's Triangle II | Accepted | python3 | 12/02 15:02:14 |
-| Pascal's Triangle | Accepted | python3 | 12/02 14:40:11 |
-| Best Time to Buy and Sell Stock | Accepted | python3 | 12/02 14:22:08 |
 
 ---
 
 ## 📅 Submissions in the Last 7 Days
 
-| Day         | Saturday | Sunday | Monday | Tuesday | Wednesday | Thursday | Friday |
-|-------------| -------- | ------ | ------ | ------- | --------- | -------- | ------ |
-| Date        | 11/30 | 12/01 | 12/02 | 12/03 | 12/04 | 12/05 | 12/06 |
-| Submissions | 11 | 5 | 13 | 2 | 0 | 6 | 3 |
+| Day         | Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday |
+|-------------| ------ | ------ | ------- | --------- | -------- | ------ | -------- |
+| Date        | 12/01 | 12/02 | 12/03 | 12/04 | 12/05 | 12/06 | 12/07 |
+| Submissions | 5 | 13 | 2 | 0 | 6 | 3 | 4 |
 
 ---
 
 ## 🌟 Rankings and Achievements
 
-- **Global Ranking**: 2454444 🌍
-- **Contribution Points**: 25
+- **Global Ranking**: 2323167 🌍
+- **Contribution Points**: 226
     <!-- Progress End -->
 
