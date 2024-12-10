@@ -21,20 +21,23 @@
 | 19 | 100 | [Same tree](https://leetcode.com/problems/same-tree/) | 2024-12-07 |
 | 20 | 101 | [Symmetric tree](https://leetcode.com/problems/symmetric-tree/) | 2024-12-07 |
 | 21 | 104 | [Maximum depth of binary tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | 2024-12-08 |
-| 22 | 118 | [Pascals triangle](https://leetcode.com/problems/pascals-triangle/) | 2024-12-02 |
-| 23 | 119 | [Pascals triangle ii](https://leetcode.com/problems/pascals-triangle-ii/) | 2024-12-02 |
-| 24 | 121 | [Best time to buy and sell stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | 2024-12-02 |
-| 25 | 125 | [Valid palindrome](https://leetcode.com/problems/valid-palindrome/) | 2024-12-02 |
-| 26 | 136 | [Single number](https://leetcode.com/problems/single-number/) | 2024-12-02 |
-| 27 | 141 | [Linked list cycle](https://leetcode.com/problems/linked-list-cycle/) | 2024-12-06 |
-| 28 | 160 | [Intersection of two linked lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) | 2024-12-06 |
-| 29 | 506 | [Relative ranks](https://leetcode.com/problems/relative-ranks/) | 2024-12-01 |
-| 30 | 507 | [Perfect number](https://leetcode.com/problems/perfect-number/) | 2024-12-01 |
-| 31 | 509 | [Fibonacci number](https://leetcode.com/problems/fibonacci-number/) | 2024-12-01 |
-| 32 | 3370 | [Smallest number with all set bits](https://leetcode.com/problems/smallest-number-with-all-set-bits/) | 2024-12-02 |
-| 33 | 3371 | [Identify the largest outlier in an array](https://leetcode.com/problems/identify-the-largest-outlier-in-an-array/) | 2024-12-02 |
-| 34 | 3375 | [Minimum operations to make array values equal to k](https://leetcode.com/problems/minimum-operations-to-make-array-values-equal-to-k/) | 2024-12-08 |
-| 35 | 3379 | [Transformed array](https://leetcode.com/problems/transformed-array/) | 2024-12-08 |
+| 22 | 108 | [Convert sorted array to binary search tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/) | 2024-12-10 |
+| 23 | 110 | [Balanced binary tree](https://leetcode.com/problems/balanced-binary-tree/) | 2024-12-10 |
+| 24 | 111 | [Minimum depth of binary tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/) | 2024-12-10 |
+| 25 | 118 | [Pascals triangle](https://leetcode.com/problems/pascals-triangle/) | 2024-12-02 |
+| 26 | 119 | [Pascals triangle ii](https://leetcode.com/problems/pascals-triangle-ii/) | 2024-12-02 |
+| 27 | 121 | [Best time to buy and sell stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | 2024-12-02 |
+| 28 | 125 | [Valid palindrome](https://leetcode.com/problems/valid-palindrome/) | 2024-12-02 |
+| 29 | 136 | [Single number](https://leetcode.com/problems/single-number/) | 2024-12-02 |
+| 30 | 141 | [Linked list cycle](https://leetcode.com/problems/linked-list-cycle/) | 2024-12-06 |
+| 31 | 160 | [Intersection of two linked lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) | 2024-12-06 |
+| 32 | 506 | [Relative ranks](https://leetcode.com/problems/relative-ranks/) | 2024-12-01 |
+| 33 | 507 | [Perfect number](https://leetcode.com/problems/perfect-number/) | 2024-12-01 |
+| 34 | 509 | [Fibonacci number](https://leetcode.com/problems/fibonacci-number/) | 2024-12-01 |
+| 35 | 3370 | [Smallest number with all set bits](https://leetcode.com/problems/smallest-number-with-all-set-bits/) | 2024-12-02 |
+| 36 | 3371 | [Identify the largest outlier in an array](https://leetcode.com/problems/identify-the-largest-outlier-in-an-array/) | 2024-12-02 |
+| 37 | 3375 | [Minimum operations to make array values equal to k](https://leetcode.com/problems/minimum-operations-to-make-array-values-equal-to-k/) | 2024-12-08 |
+| 38 | 3379 | [Transformed array](https://leetcode.com/problems/transformed-array/) | 2024-12-08 |
 
 
 <!-- Progress Start -->
@@ -42,11 +45,11 @@
 
 | Difficulty | Solved | Total | Completion (%) |
 |------------|--------|-------|----------------|
-| Easy       | 35     | 842   | 4.16%          |
+| Easy       | 38     | 842   | 4.51%          |
 | Medium     | 1      | 1766  | 0.06%          |
-| Hard       | 0      | 775   | 0.00%          |
+| Hard       | 0      | 776   | 0.00%          |
 
-**Total Solved**: 36/3383 (1.06%)
+**Total Solved**: 39/3384 (1.15%)
 
 ---
 
@@ -54,6 +57,11 @@
 
 | Problem                            | Status         | Language  | Timestamp           |
 |------------------------------------|----------------|-----------|---------------------|
+| Minimum Depth of Binary Tree | Accepted | python3 | 12/10 23:32:28 |
+| Balanced Binary Tree | Accepted | python3 | 12/09 11:55:43 |
+| Balanced Binary Tree | Time Limit Exceeded | python3 | 12/09 11:54:25 |
+| Balanced Binary Tree | Time Limit Exceeded | python3 | 12/09 11:12:29 |
+| Convert Sorted Array to Binary Search Tree | Accepted | python3 | 12/09 10:40:19 |
 | Maximum Depth of Binary Tree | Accepted | python3 | 12/08 16:28:51 |
 | Maximum Depth of Binary Tree | Wrong Answer | python3 | 12/08 16:20:39 |
 | Maximum Depth of Binary Tree | Wrong Answer | python3 | 12/08 16:18:58 |
@@ -69,26 +77,21 @@
 | Remove Element | Accepted | python3 | 12/05 17:37:23 |
 | Remove Element | Wrong Answer | python3 | 12/05 17:23:35 |
 | Remove Duplicates from Sorted Array | Accepted | python3 | 12/05 17:07:01 |
-| Remove Duplicates from Sorted Array | Output Limit Exceeded | python3 | 12/05 17:05:46 |
-| Remove Duplicates from Sorted Array | Output Limit Exceeded | python3 | 12/05 17:01:11 |
-| Merge Two Sorted Lists | Accepted | python3 | 12/05 14:37:19 |
-| Binary Search | Accepted | python3 | 12/03 23:36:19 |
-| Binary Search | Runtime Error | python3 | 12/03 23:35:43 |
 
 ---
 
 ## 📅 Submissions in the Last 7 Days
 
-| Day         | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday | Sunday |
-|-------------| ------ | ------- | --------- | -------- | ------ | -------- | ------ |
-| Date        | 12/02 | 12/03 | 12/04 | 12/05 | 12/06 | 12/07 | 12/08 |
-| Submissions | 13 | 2 | 0 | 6 | 3 | 4 | 5 |
+| Day         | Wednesday | Thursday | Friday | Saturday | Sunday | Monday | Tuesday |
+|-------------| --------- | -------- | ------ | -------- | ------ | ------ | ------- |
+| Date        | 12/04 | 12/05 | 12/06 | 12/07 | 12/08 | 12/09 | 12/10 |
+| Submissions | 0 | 6 | 3 | 4 | 5 | 4 | 1 |
 
 ---
 
 ## 🌟 Rankings and Achievements
 
-- **Global Ranking**: 2095135 🌍
-- **Contribution Points**: 277
+- **Global Ranking**: 2033437 🌍
+- **Contribution Points**: 279
     <!-- Progress End -->
 
