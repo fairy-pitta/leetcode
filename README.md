@@ -24,20 +24,21 @@
 | 22 | 108 | [Convert sorted array to binary search tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/) | 2024-12-10 |
 | 23 | 110 | [Balanced binary tree](https://leetcode.com/problems/balanced-binary-tree/) | 2024-12-10 |
 | 24 | 111 | [Minimum depth of binary tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/) | 2024-12-10 |
-| 25 | 118 | [Pascals triangle](https://leetcode.com/problems/pascals-triangle/) | 2024-12-02 |
-| 26 | 119 | [Pascals triangle ii](https://leetcode.com/problems/pascals-triangle-ii/) | 2024-12-02 |
-| 27 | 121 | [Best time to buy and sell stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | 2024-12-02 |
-| 28 | 125 | [Valid palindrome](https://leetcode.com/problems/valid-palindrome/) | 2024-12-02 |
-| 29 | 136 | [Single number](https://leetcode.com/problems/single-number/) | 2024-12-02 |
-| 30 | 141 | [Linked list cycle](https://leetcode.com/problems/linked-list-cycle/) | 2024-12-06 |
-| 31 | 160 | [Intersection of two linked lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) | 2024-12-06 |
-| 32 | 506 | [Relative ranks](https://leetcode.com/problems/relative-ranks/) | 2024-12-01 |
-| 33 | 507 | [Perfect number](https://leetcode.com/problems/perfect-number/) | 2024-12-01 |
-| 34 | 509 | [Fibonacci number](https://leetcode.com/problems/fibonacci-number/) | 2024-12-01 |
-| 35 | 3370 | [Smallest number with all set bits](https://leetcode.com/problems/smallest-number-with-all-set-bits/) | 2024-12-02 |
-| 36 | 3371 | [Identify the largest outlier in an array](https://leetcode.com/problems/identify-the-largest-outlier-in-an-array/) | 2024-12-02 |
-| 37 | 3375 | [Minimum operations to make array values equal to k](https://leetcode.com/problems/minimum-operations-to-make-array-values-equal-to-k/) | 2024-12-08 |
-| 38 | 3379 | [Transformed array](https://leetcode.com/problems/transformed-array/) | 2024-12-08 |
+| 25 | 114 | [Binary tree preorder traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/) | 2024-12-12 |
+| 26 | 118 | [Pascals triangle](https://leetcode.com/problems/pascals-triangle/) | 2024-12-02 |
+| 27 | 119 | [Pascals triangle ii](https://leetcode.com/problems/pascals-triangle-ii/) | 2024-12-02 |
+| 28 | 121 | [Best time to buy and sell stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | 2024-12-02 |
+| 29 | 125 | [Valid palindrome](https://leetcode.com/problems/valid-palindrome/) | 2024-12-02 |
+| 30 | 136 | [Single number](https://leetcode.com/problems/single-number/) | 2024-12-02 |
+| 31 | 141 | [Linked list cycle](https://leetcode.com/problems/linked-list-cycle/) | 2024-12-06 |
+| 32 | 160 | [Intersection of two linked lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) | 2024-12-06 |
+| 33 | 506 | [Relative ranks](https://leetcode.com/problems/relative-ranks/) | 2024-12-01 |
+| 34 | 507 | [Perfect number](https://leetcode.com/problems/perfect-number/) | 2024-12-01 |
+| 35 | 509 | [Fibonacci number](https://leetcode.com/problems/fibonacci-number/) | 2024-12-01 |
+| 36 | 3370 | [Smallest number with all set bits](https://leetcode.com/problems/smallest-number-with-all-set-bits/) | 2024-12-02 |
+| 37 | 3371 | [Identify the largest outlier in an array](https://leetcode.com/problems/identify-the-largest-outlier-in-an-array/) | 2024-12-02 |
+| 38 | 3375 | [Minimum operations to make array values equal to k](https://leetcode.com/problems/minimum-operations-to-make-array-values-equal-to-k/) | 2024-12-08 |
+| 39 | 3379 | [Transformed array](https://leetcode.com/problems/transformed-array/) | 2024-12-08 |
 
 
 <!-- Progress Start -->
@@ -45,11 +46,11 @@
 
 | Difficulty | Solved | Total | Completion (%) |
 |------------|--------|-------|----------------|
-| Easy       | 38     | 842   | 4.51%          |
+| Easy       | 40     | 842   | 4.75%          |
 | Medium     | 1      | 1766  | 0.06%          |
-| Hard       | 0      | 776   | 0.00%          |
+| Hard       | 0      | 777   | 0.00%          |
 
-**Total Solved**: 39/3384 (1.15%)
+**Total Solved**: 41/3385 (1.21%)
 
 ---
 
@@ -57,6 +58,10 @@
 
 | Problem                            | Status         | Language  | Timestamp           |
 |------------------------------------|----------------|-----------|---------------------|
+| Binary Tree Preorder Traversal | Accepted | python3 | 12/12 22:28:17 |
+| Path Sum | Accepted | python3 | 12/11 15:58:46 |
+| Path Sum | Wrong Answer | python3 | 12/11 15:55:47 |
+| Path Sum | Wrong Answer | python3 | 12/11 15:38:47 |
 | Minimum Depth of Binary Tree | Accepted | python3 | 12/10 23:32:28 |
 | Balanced Binary Tree | Accepted | python3 | 12/09 11:55:43 |
 | Balanced Binary Tree | Time Limit Exceeded | python3 | 12/09 11:54:25 |
@@ -73,25 +78,21 @@
 | Minimum Operations to Make Array Values Equal to K | Accepted | python3 | 12/07 22:36:17 |
 | Remove Duplicates from Sorted List | Accepted | python3 | 12/06 11:41:30 |
 | Intersection of Two Linked Lists | Accepted | python3 | 12/06 11:37:35 |
-| Linked List Cycle | Accepted | python3 | 12/06 11:25:56 |
-| Remove Element | Accepted | python3 | 12/05 17:37:23 |
-| Remove Element | Wrong Answer | python3 | 12/05 17:23:35 |
-| Remove Duplicates from Sorted Array | Accepted | python3 | 12/05 17:07:01 |
 
 ---
 
 ## 📅 Submissions in the Last 7 Days
 
-| Day         | Wednesday | Thursday | Friday | Saturday | Sunday | Monday | Tuesday |
-|-------------| --------- | -------- | ------ | -------- | ------ | ------ | ------- |
-| Date        | 12/04 | 12/05 | 12/06 | 12/07 | 12/08 | 12/09 | 12/10 |
-| Submissions | 0 | 6 | 3 | 4 | 5 | 4 | 1 |
+| Day         | Friday | Saturday | Sunday | Monday | Tuesday | Wednesday | Thursday |
+|-------------| ------ | -------- | ------ | ------ | ------- | --------- | -------- |
+| Date        | 12/06 | 12/07 | 12/08 | 12/09 | 12/10 | 12/11 | 12/12 |
+| Submissions | 3 | 4 | 5 | 4 | 1 | 3 | 1 |
 
 ---
 
 ## 🌟 Rankings and Achievements
 
-- **Global Ranking**: 2033437 🌍
-- **Contribution Points**: 279
+- **Global Ranking**: 1976362 🌍
+- **Contribution Points**: 281
     <!-- Progress End -->
 
